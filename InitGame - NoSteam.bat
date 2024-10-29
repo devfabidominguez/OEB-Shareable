@@ -1,0 +1,1 @@
+"C:\Users\lol\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\lol\Documents\Unreal Projects\OEB\OEB.uproject" -game -log -nosteam

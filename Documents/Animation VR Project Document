@@ -1,0 +1,67 @@
+Animation Track
+	- Blendable & Layerable
+	- Ability to offset transforms
+	- Local Changes
+
+Subscenes
+	- Layerable
+	- Not blendable
+	- Global Changes
+
+Shot Tracks
+	- Used for the edit
+	- Not blendable or layerbale
+	- Easily Swap Takes
+
+- Note down missing animations and 3D models
+	- Missing Models:
+		- Referee (No encontre)
+		- Stadium
+			- Banco de suplentes
+			- Suplentes
+			- DT
+		- Hinchada 
+
+	- Missing Animations:
+		- Referi sacando la tarjeta	(No encontre)	
+		- Referi guardando la tarjeta (No encontre)				
+
+		- Hinchada Alentando (alguna que otra conseguiremos pero mientras mas mejor) ($35 dolares)
+
+		- Escena falta b.4. Falta animacion de levantar al compañero caido. Hay animacion de levantarse solo. (Es opcional no me preocupo)
+
+		- Escena Penal a.6. Falta hinchada, banco de suplentes, DT aunque (no se si los querian en la visual pero anoto que faltan)
+
+		- Escena Penal a.7. Falta animacion de festejo con barrida (No encontre)
+			- Cualquier animacion de festejo 
+
+	- Soluciones faltantes
+		- Pasto 
+		- Generar nuevos personajes: (Esto podria generar el arquero y evitaria que lo compremos)
+			- Variacion de color de ropa
+			- Variacion de color de pelo
+			- Variacion de color de piel
+			- Agregar elementos (gorra, campera, guantes de arquero)
+
+- Gestures pack
+- Get Net 3D Model for CLOTH simulation
+- UI yo o editor? 
+- Fixed bug for CameraCineActor (LookAtTarget rotation)
+
+TO DO:
+
+- Make Unreal last version be able to open Market in Engine or to be recognized by Epic Games Launcher
+- Move functions from one blueprint to another
+- Move generic functions to BlueprintFunctionLibrary
+
+- Probar nuevo color de ropa
+- Terminar camaras escena penal
+
+- Limpiar pcs 
+- Back up daro
+
+- Implementar UNREAL MENU WINDOW 
+- Implementar reflection by UPROPERTYS on GIVEN ACTORS OR COMPONENTS
+- Implementar GetAllActorsOfClass
+
+- Implementar REPLACE TILES on editor in CHELH

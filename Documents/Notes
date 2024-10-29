@@ -1,0 +1,72 @@
+Animaciones para buscar:
+Arbitro
+Sacando la tarjeta
+Corriendo y frenando tipo arbitro sacando la tarjeta
+
+Cosas para hacer:
+-Poner lineas blancas
+-Setear 4 escenas en la cancha
+	- Penal
+	- Falta
+	- Pase 
+		- Fallido
+		- Exitoso		
+-Arco tiene sobrante de mesh abajo
+-Arco tiene colision en la "entrada"
+
+-Animaciones de pelota 
+	- Prediccion de disparo
+	- Blueprint de pelota animable
+-Material de pelota
+-Eventos en sequencer
+
+- Nuevo Character 
+	- Usa camara de cine
+	- Camara y cuerpo desatacheados por defecto
+- UI Dev
+	- Show/Hide Mesh
+	- Recording Settings
+		- Show Game UI
+		- Show DEV UI
+	- Start/End Track
+		- Hide DEV UI on track recording.
+		- Show Game UI on track recording based on setting.			
+- UI Game
+	- Widget_Difficulty
+- Game
+
+	IIntensity
+	{
+		static float Intensity = 0.f;
+		static EIntensity:Type : float
+			{
+				EIntensity:Hard : 1.f;
+				EIntensity:Mid : 0.f;
+				EIntensity:Low : -1.f;
+			}
+
+		static EIntensity::Type IntensityType = EIntensity:Mid;
+	}
+	
+
+
+
+	- IDifficultyManager
+	- IDifficulty
+
+
+- Cambiar sensibilidad de movimiento para que funcione con la que tiene la version de arquitectos
+	- Robar ArchVisCharacter y ArchVisMovmentComponent y ponerselo a OEBCharacter
+- Poner mejor textura de pasto: LISTO?
+- Poner PASTO del BUENO FULL HD con distancia de dibujado CERCANA 
+- Se puede renderizar mas caro aun si tarda mas? deberiase poder
+- Grabar un crudo para ver como se ve efectivamente
+- Join EVENTS with CODE would be ESPECTACULAR. 
+- EXECUTE CUSTOM EVENT WOULD BE THE SHIT OF THE SHIT 
+
+
+- Podemos hacer que se dibuje un movimiento para hacer (movimiento 2D grabado, hecho en splines para encurvar los puntos y que quede soft)
+- Podemos hacer una toma de "entrada al cuerpo" el espectador ve en la tele como su vista ve de afuera y de adentro en la misma toma y lo lleva desde: "como uno esta acostumbrado a verlo", a: "ver desde los ojos del jugador, VR, etc").
+- Podemos hacer tomas mostrando la tecnologia "en la cancha" con simulaciones andando a la vez desde distintos puntos
+- Mostrando las distintas posibilidades de como se puede ver (para mostrar la capacidad de paisajes visuales que se pueden generar)
+- Mostrando todas las escenas pasando a la vez 
